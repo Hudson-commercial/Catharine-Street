@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      <title>Catharine Street</title>
+      <meta name="google-site-verification" content="fM2DA6ouCxzm8JQL7Hjv43i2TB_XEPevxRMb8YMlP5U" />
+      <meta content="" name="descriptison">
+      <meta content="" name="keywords">
+      <!-- Favicons -->
+      <link href="assets/img/favicon.png" rel="icon">
+      <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+      <!-- Vendor CSS Files -->
+      <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+      <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+      <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+      <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+      <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+      <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+      <!-- Template Main CSS File -->
+      <link href="assets/css/style.css" rel="stylesheet">
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+      <!-- Google Fonts -->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+      <!-- Bootstrap core CSS -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Material Design Bootstrap -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+      <style type="text/css">
+         .section-title h2 {
+         font-size: 1.8em !important;
+         font-weight: 400;
+         margin-bottom: 20px;
+         padding-bottom: 20px;
+         position: relative;
+         } 
+         .section-title h2::after {
+         content: '';
+         position: absolute;
+         display: block;
+         width: 40px;
+         height: 3px;
+         background: #68A4C4;
+         bottom: 0;
+         left: calc(50% - 20px);
+         }
+         .about-p {
+         padding-top: 1rem;
+         font-size: 1.3em !important;
+         line-height: 2em !important;
+         }
+         .btn-get-started-custom {
+         font-family: "Poppins", sans-serif;
+         font-weight: 500;
+         font-size: 14px;
+         letter-spacing: 0.5px;
+         display: inline-block;
+         padding: 14px 50px;
+         border-radius: 5px;
+         transition: 0.5s;
+         margin-top: 30px;
+         color: white;
+         background-color: transparent;
+         background-image: none;
+         border-color: white !important;
+         border: 1px solid white !important;
+         }
+         .btn-white {
+         font-family: "Poppins", sans-serif;
+         font-weight: 500;
+         font-size: 14px;
+         letter-spacing: 0.5px;
+         display: inline-block;
+         padding: 14px 50px;
+         border-radius: 5px;
+         transition: 0.5s;
+         margin-top: 30px;
+         color: black;
+         background-color: white;
+         background-image: none;
+         border-color: white !important;
+         border: 1px solid white !important;
+         }
+         .btn-custom-black {
+         font-family: "Poppins", sans-serif;
+         font-weight: 500;
+         font-size: 14px;
+         letter-spacing: 0.5px;
+         display: inline-block;
+         padding: 14px 50px;
+         border-radius: 5px;
+         transition: 0.5s;
+         margin-top: 30px;
+         color: white;
+         background-color: transparent;
+         background-image: none;
+         border-color: #17a2b8 !important;
+         border: 1px solid #17a2b8 !important;          
+         }
+         .margin-x{
+         margin-top: 2em;
+         }
+         .margin-x-b{
+         margin-bottom: 10em;
+         }
+         .bg-black {
+         background: black !important;
+         }
+         .bg-lime-green {
+         background: #06768d !important;
+         }
+         .carousel-inner {
+         margin: 0px;
+         padding: 0px;
+         }
+         .bx-chevron-left:before, .bx-chevron-right:before{
+         display: none !important;
+         }
+         .carousel-control-prev-icon,
+         .carousel-control-next-icon {
+         width: 50px !important;
+         height: 50px !important;
+         background-color: #000;
+         border-radius: 50%;
+         top: calc(50% - 25px;)
+         }
+         .carousel-control-next-icon {
+         right:   5%;
+         }
+         .carousel-control-prev-icon{     
+         left:   5%;
+         }
+         .carousel .carousel-inner img {
+         object-fit: cover !important;
+         width: 100%;
+         max-height: auto !important;
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover !important;
+         }
+         .carousel-inner .img-fluid-c{
+         min-height: 100% !important;
+         }
+         @media screen and (max-width: 1300px) {
+         .carousel-inner {
+         margin-top: 0px;
+         margin-bottom: 0px;
+         padding-top: 0em;
+         padding-left: 0em;
+         padding-right: 0em;
+         padding-bottom: 0em;
+         }
+         }
+         /* Makes images fully responsive */
+
+
+                  /*
+         *
+         * ==========================================
+         * CUSTOM UTIL CLASSES
+         * ==========================================
+         *
+         */
+         .navbar-cutom {
+         transition: all 0.4s;
+         }
+      
+             .scrolled{
+         background:#000 !important;
+         }
+         html, body {
+             max-width: 100%;
+             overflow-x: hidden;
+         }
+      </style>
+      <!-- =======================================================
+         * Template Name: OnePage - v2.1.0
+         * Template URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
+         * Author: BootstrapMade.com
+         * License: https://bootstrapmade.com/license/
+         ======================================================== -->
+   </head>
+   <body>
+      <!-- ======= Header ======= -->
+      <header id="header" class="fixed-top navbar-alt navbar-cutom ">
+         <div class="container d-flex align-items-center">
+            <h1 class="logo mr-auto font-weight-bold text-white "><a class="text-white" href="index.html">For Sale</a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+            <nav class="nav-menu d-none d-lg-block">
+               <ul>
+                  <li class=" text-white "><a class="text-white" href="index.html">Home</a></li>
+                  <li class=" text-white "><a class="text-white"  href="https://hudsoncommercial.com/contact-us/">Contact</a></li>
+               </ul>
+            </nav>
+            <!-- .nav-menu -->
+         </div>
+      </header>
+      <!-- End Header -->
+      <!-- ======= Hero Section ======= -->
+      <section id="hero" class="d-flex align-items-center">
+         <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+            <div class="circle-div">
+               <div class="row justify-content-center">
+                  <div class="col-xl-7 col-lg-9 text-center center header-text">
+                     <h1 class="text-white">The Catharine Street Community Center</h1>
+                  </div>
+               </div>
+               <div class="text-center">
+<!--                   <a href="#about" class="   scrollto  mb-4 pb-4">
+                     <svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-arrow-down-circle mt-5 text-white" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                        <path fill-rule="evenodd" d="M4.646 7.646a.5.5 0 0 1 .708 0L8 10.293l2.646-2.647a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 0-.708z"/>
+                        <path fill-rule="evenodd" d="M8 4.5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5z"/>
+                     </svg>
+                  </a> -->
+               </div>
+            </div>
+            <div class="row icon-boxes">
+            </div>
+         </div>
+         </div>
+         </div>
+         </div>
+      </section>
+      <main id="main">
+         <!-- ======= About Section ======= -->
+         <section id="about" class="about">
+            <div class="container mb-5">
+               <div class="section-title ">
+                  <h2 class="text-black">About us</h2>
+                  <p class="about-p text-dark"> Offered for sale is the 69 Catherine St. property (also known as 150-152 Mansion St.), comprised of two buildings; a two-story house and a multilevel commercial building formerly used as a community center. The combined properties are on a 1.57 acre parcel. Both properties have municipal water and sewer. The property is zoned R-4. </p>
+               </div>
+            </div>
+            <!--Grid column-->
+            <!--Carousel Wrapper-->
+            <div id="carousel-example-1z" class="carousel slide carousel-fade  bg-transprent">
+               <!--Slides-->
+               <!--First slide-->
+               <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active">
+                     <img class="img-fluid-c"   src="assets/img/PrimaryPhoto.jpg"  alt="First slide">
+                  </div>
+                  <div class="carousel-item ">
+                     <img class="img-fluid-c"  src="assets/img/Building2.jpg"  alt="Second slide">
+                  </div>
+                  <div class="carousel-item ">
+                     <img class="img-fluid-c"  src="assets/img/building-3.jpg"  alt="Third slide">
+                  </div>
+                  <div class="carousel-item ">
+                     <img class="img-fluid-c "  src="assets/img/building-4.jpg"  alt="Fourth slide">
+                  </div>
+                  <div class="carousel-item ">
+                     <img class=" img-fluid-c"  src="assets/img/building-5.jpg"  alt="Fifth slide">
+                  </div>
+                  <div class="carousel-item ">
+                     <img class="img-fluid-c"  src="assets/img/building-6.jpg"  alt="Sixth slide">
+                  </div>
+                  <div class="carousel-item ">
+                     <img class="img-fluid-c "  src="assets/img/building-8.jpg"  alt="Seventh slide">
+                  </div>
+                  <div class="carousel-item-c">
+                     <img class="img-fluid-c"  src="assets/img/Photo.jpg"  alt="Eighth slide">
+                  </div>
+                  <!--/.Slides-->
+                  <!--Controls-->
+                  <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"><i class='bx bx-chevron-left' ></i></span>
+                  <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"><i class='bx bx-chevron-right' ></i></span>
+                  <span class="sr-only">Next</span>
+                  </a>
+                  <!--/.Controls-->
+               </div>
+               <!--/.Carousel Wrapper-->
+            </div>
+            <!--Grid column-->
+         </section>
+         <!-- End About Section -->
+         <div class="container mt-5">
+            <div class="section-title  margin-x">
+               <h2>Property Facts</h2>
+            </div>
+            <div class="table-responsive"> 
+            <table class="table table-bordered mt-4 pb-3 table-responsive{-xl} ">
+               <thead>
+                  <tr class="bg-dark text-white">
+                     <th scope="col">Sale Type</th>
+                     <th scope="col">Property Type</th>
+                     <th scope="col">Zoning</th>
+                     <th scope="col">Building Size</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>Investment</td>
+                     <td>Office</td>
+                     <td>R4</td>
+                     <td>13,261 SF</td>
+                  </tr>
+               </tbody>
+               <thead>
+                  <tr class="bg-dark text-white">
+                     <th scope="col">Year Built</th>
+                     <th scope="col">Price</th>
+                     <th scope="col">Price Per SF</th>
+                     <th scope="col">Percent Used</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>1961/2007</td>
+                     <td>$725,000</td>
+                     <td>$55/SF</td>
+                     <td>0%</td>
+                  </tr>
+               </tbody>
+               <thead>
+                  <tr class="bg-dark text-white">
+                     <th scope="col">Building Height</th>
+                     <th scope="col">Typical Floor Size</th>
+                     <th scope="col">Taxes</th>
+                     <th scope="col">Land Acres</th>
+                  </tr>
+               <tbody>
+                  <tr>
+                     <td>2 Stories</td>
+                     <td>3,300 SF</td>
+                     <td>$0.08/SF (2021)</td>
+                     <td>1.49 AC</td>
+                  </tr>
+               </tbody>
+               </thead>
+            </table>
+         </div>
+         </div>
+         <!-- ======= About Video Section ======= -->
+         <!-- ======= Clients Section ======= -->
+         <section id="clients" class="clients  margin-x">
+            <div class="container">
+               <div class="row" style="height: 8em;">
+               </div>
+            </div>
+         </section>
+         <!-- End Clients Section -->
+         <div class="container  margin-x margin-x-b">
+            <div class="bg-black mt-4">
+               <div class="col-md-12 mt-4">
+                  <div class="jumbotron text-white  bg-black   mt-4 p-4">
+                     <div class="p-4">
+                        <h2 class="h2-responsive">Catharine Street Community Center</h2>
+                        <br>
+                        <p>69 Catharine St, Poughkeepsie, NY</p>
+                        <hr>
+                              <p class="text-muted">
+               Offered for sale is the 69 Catherine St. property (also known as 150-152 Mansion St.), comprised of two buildings; a two-story house and a multilevel commercial building formerly used as a community center. The combined properties are on a 1.57 acre parcel. Both properties have municipal water and sewer. The property is zoned R-4.
+              </p>
+              <p>69 Catherine St. — A two-story 11,679+ SF metal and masonry building, previously used as a recreation center. It includes classrooms for young children, computer labs, offices, a gym, restrooms and a breakroom. The property has several exit doors. 400 amps</p>
+              <p class="text-muted">
+            73 Catherine St. — A 2,461 SF Victorian house, previously used for offices. Built in 1920. Well maintained. Newer roof, gas boiler & updat- ed electric. Front and rear staircases. Walk-out basement & walk-up attic for ample storage. 7 rooms. Includes kitchen.
+              </p>
+                        <a target="_blank" href="" class="btn btn-get-started-custom waves-effect mr-3" download>Download
+                        <i class="fas fa-download right"></i></a>
+                        <a target="_blank" href="https://www.vetcenterofhudson.com/" class="btn bg-white btn-white btn-large btn-ptc waves-effect waves-light" rel="nofollow">Our Website <i class="fas fa-link right"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- ======= Services Section ======= -->
+         <section id="services" class="services section-bg margin-x">
+            <div class="container" data-aos="fade-up">
+               <div class="section-title">
+                  <h2>AMENITIES</h2>
+                  <p class="text-black"> <span class="text-black">The Catharine Street Community Center Amenities List.</span></p>
+               </div>
+               <div class="row">
+                  <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                     <div class="icon-box iconbox-blue bg-dark text-white">
+                        <div class="icon">
+                           <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
+                           </svg>
+                           <i class='bx bx-plus-medical'></i>
+                        </div>
+                        <h4 class="text-white" ><a  class="text-white" href="">Bus Line</a></h4>
+                        <p>The property is a small ways away from the poughkeepsie city Bus Line.</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+                     <div class="icon-box iconbox-orange bg-dark text-white ">
+                        <div class="icon">
+                           <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426"></path>
+                           </svg>
+                           <i class="bx bx-file"></i>
+                        </div>
+                        <h4 class="text-white"><a class="text-white" href="">Day Care</a></h4>
+                        <p>The property has a daycare facility built inside the building.</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+                     <div class="icon-box iconbox-pink bg-dark text-white">
+                        <div class="icon">
+                           <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781"></path>
+                           </svg>
+                           <i class="bx bx-tachometer"></i>
+                        </div>
+                        <h4 class="text-white"><a class="text-white" href="">Security System</a></h4>
+                        <p>The building comes equipped the a very good security system.</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+                     <div class="icon-box iconbox-yellow bg-dark text-white">
+                        <div class="icon">
+                           <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,503.46388370962813C374.79870501325706,506.71871716319447,464.8034551963731,527.1746412648533,510.4981551193396,467.86667711651364C555.9287308511215,408.9015244558933,512.6030010748507,327.5744911775523,490.211057578863,256.5855673507754C471.097692560561,195.9906835881958,447.69079081568157,138.11976852964426,395.19560036434837,102.3242989838813C329.3053358748298,57.3949838291264,248.02791733380457,8.279543830951368,175.87071277845988,42.242879143198664C103.41431057327972,76.34704239035025,93.79494320519305,170.9812938413882,81.28167332365135,250.07896920659033C70.17666984294237,320.27484674793965,64.84698225790005,396.69656628748305,111.28512138212992,450.4950937839243C156.20124167950087,502.5303643271138,231.32542653798444,500.4755392045468,300,503.46388370962813"></path>
+                           </svg>
+                           <i class="bx  bx-shield-x"></i>
+                        </div>
+                        <h4 class="text-white"><a class="text-white" href="">Fenced Lot</a></h4>
+                        <p>The property has a large fenced lot that cound be used for 80 parking spaces.</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+                     <div class="icon-box iconbox-red bg-dark text-white">
+                        <div class="icon">
+                           <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,532.3542879108572C369.38199826031484,532.3153073249985,429.10787420159085,491.63046689027357,474.5244479745417,439.17860296908856C522.8885846962883,383.3225815378663,569.1668002868075,314.3205725914397,550.7432151929288,242.7694973846089C532.6665558377875,172.5657663291529,456.2379748765914,142.6223662098291,390.3689995646985,112.34683881706744C326.66090330228417,83.06452184765237,258.84405631176094,53.51806209861945,193.32584062364296,78.48882559362697C121.61183558270385,105.82097193414197,62.805066853699245,167.19869350419734,48.57481801355237,242.6138429142374C34.843463184063346,315.3850353017275,76.69343916112496,383.4422959591041,125.22947124332185,439.3748458443577C170.7312796277747,491.8107796887764,230.57421082200815,532.3932930995766,300,532.3542879108572"></path>
+                           </svg>
+                           <i class='bx bx-shape-polygon' ></i>
+                        </div>
+                        <h4 class="text-white"><a class="text-white" href="">Air Conditioning</a></h4>
+                        <p>The build will stay cool with its own air conditioning.</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+                     <div class="icon-box iconbox-teal bg-dark text-white">
+                        <div class="icon">
+                           <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762"></path>
+                           </svg>
+                           <i class='bx bx-layer'></i>
+                        </div>
+                        <h4 class="text-white"><a class="text-white"   href="">Conferencing Facility</a></h4>
+                        <p>The building a has a very nice conference facility.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- End Sevices Section -->
+         <!-- ======= Cta Section ======= -->
+         <section id="cta" class="bg-black text-white">
+            <div class="container" data-aos="zoom-in">
+               <div class="text-center">
+                  <h3>Get More Information</h3>
+                  <p> If you are interested in finding out more about the Catherine St. property and why it could be excelent for a building for your operation, please give us a call or contact us through our online messaging service. We would love to show you the facility or give you an offering memorandum. 845-454-1444.</p>
+                  <a class="btn btn-outline-white text-white" href="https://hudsoncommercial.com/contact-us/">Contact us</a>
+               </div>
+            </div>
+         </section>
+         <!-- End Cta Section -->
+         <!-- ======= Portfolio Section ======= -->
+         <section id="portfolio" class="portfolio">
+            <div class="container" data-aos="fade-up">
+               <div class="section-title">
+                  <h2>Portfolio</h2>
+                  <p>Below are the pictures of the property. The pictures are divided into sections for outside pictures and office picturess.</p>
+               </div>
+               <div class="row" data-aos="fade-up" data-aos-delay="150">
+                  <div class="col-lg-12 d-flex justify-content-center">
+                     <ul id="portfolio-flters">
+                        <li data-filter="*" class="filter-active">All</li>
+                        <li data-filter=".filter-app">Outside </li>
+                        <li data-filter=".filter-card">Office</li>
+                     
+                     </ul>
+                  </div>
+               </div>
+               <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="300">
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                     <div class="portfolio-wrap">
+                        <img src="assets/img/building-10.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                           <h4>Outside 1</h4>
+                           <p>Outside</p>
+                           <div class="portfolio-links">
+                              <a href="assets/img/PrimaryPhoto.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
+                              <a href="PrimaryPhoto.jpg" title="More Details"><i class="bx bx-link"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                     <div class="portfolio-wrap">
+                        <img src="assets/img/building-6.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                           <h4>Office 1</h4>
+                           <p>Office Space</p>
+                           <div class="portfolio-links">
+                              <a href="assets/img/building-6.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                              <a href="assets/img/building-6.jpg" title="More Details"><i class="bx bx-link"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                     <div class="portfolio-wrap">
+                        <img src="assets/img/building-4.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                           <h4>Outside 2</h4>
+                           <p>Outside</p>
+                           <div class="portfolio-links">
+                              <a href="assets/img/building-4.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
+                              <a href="assets/img/building-4.jpg" title="More Details"><i class="bx bx-link"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                     <div class="portfolio-wrap">
+                        <img src="assets/img/building-12.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                           <h4>Office 2</h4>
+                           <p>Office Space</p>
+                           <div class="portfolio-links">
+                              <a href="assets/img/building-12.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
+                              <a href="assets/img/building-12.jpg" title="More Details"><i class="bx bx-link"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                     <div class="portfolio-wrap">
+                        <img src="assets/img/Building2.jpg"  class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                           <h4>Office 3</h4>
+                           <p>Office Space</p>
+                           <div class="portfolio-links">
+                              <a href="assets/img/Building2.jpg" data-gall="portfolioGallery" class="venobox" title="Front Desk 2"><i class="bx bx-plus"></i></a>
+                              <a href="assets/img/Building2.jpg" title="More Details"><i class="bx bx-link"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                     <div class="portfolio-wrap">
+                        <img src="assets/img/Photo.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                           <h4>Office 4</h4>
+                           <p>Office Space</p>
+                           <div class="portfolio-links">
+                              <a href="assets/img/Photo.jpg" data-gall="portfolioGallery" class="venobox" title="Office 1"><i class="bx bx-plus"></i></a>
+                              <a href="assets/img/Photo.jpg" title="More Details"><i class="bx bx-link"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+
+               </div>
+            </div>
+         </section>
+         <!-- End Portfolio Section -->
+ <!-- ======= Frequently Asked Questions Section ======= -->
+         <section id="faq" class="faq section-bg bg-dark ">
+            <div class="container" data-aos="fade-up">
+               <div class="section-title text-white ">
+                  <h2 class=" text-white">Frequently Asked Questions</h2>
+                  <p class="text-white"> Below are some frequently ask questions that we answered. Please take a look and see if any of these are questions you were looking to ask.</p>
+               </div>
+               <div class="faq-list">
+                  <ul>
+                     <li data-aos="fade-up">
+                        <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" class="collapse" href="#faq-list-1">Whats The asking price? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                        <div id="faq-list-1" class="collapse show" data-parent=".faq-list">
+                           <p class="">
+                             $725,000
+                           </p>
+                        </div>
+                     </li>
+                     <li data-aos="fade-up" data-aos-delay="100">
+                        <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-2" class="collapsed">Does the property run on municipal utilities? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                        <div id="faq-list-2" class="collapse" data-parent=".faq-list">
+                           <p>
+                              Yes.
+                           </p>
+                        </div>
+                     </li>
+                     <li data-aos="fade-up" data-aos-delay="200">
+                        <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-3" class="collapsed">Could the property be used as an investment?
+                        <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                        <div id="faq-list-3" class="collapse" data-parent=".faq-list">
+                           <p>
+                              Yes, the property could be bought and leased out.
+                           </p>
+                        </div>
+                     </li>
+                     <li data-aos="fade-up" data-aos-delay="300">
+                        <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-4" class="collapsed">Has the property been renovated? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                        <div id="faq-list-4" class="collapse" data-parent=".faq-list">
+                           <p>
+                             Partly.
+                           </p>
+                        </div>
+                     </li>
+                     <li data-aos="fade-up" data-aos-delay="400">
+                        <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-5" class="collapsed">How old is the buidling? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                        <div id="faq-list-5" class="collapse" data-parent=".faq-list">
+                           <p>
+                              The building is 16 years old. It was built in 2007.
+                           </p>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+         <!-- End Frequently Asked Questions Section -->
+         <!-- ======= Contact Section ======= -->
+         <section id="contact" class="contact">
+            <div class="container" data-aos="fade-up">
+               <div class="section-title">
+                  <h2>Contact</h2>
+                  <p>If you would like to contact us to set an appointment to view the property and get more information. The best way would be to contact the broker Sam Finnerman at Hudson Commercial Real Estate. </p>
+               </div>
+               <div>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2980.242224292753!2d-73.92985828456538!3d41.672111879239026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dd3e9973263023%3A0x4be9b12dcbd2c3fa!2s2678%20South%20Rd%20%23103%2C%20Poughkeepsie%2C%20NY%2012601!5e0!3m2!1sen!2sus!4v1593089198219!5m2!1sen!2sus" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+               </div>
+               <div class="row mt-5">
+                  <div class="col-lg-4">
+                     <div class="info">
+                        <div class="address">
+                           <i class="icofont-google-map bg-black text-white"></i>
+                           <h4>Location:</h4>
+                           <p>2678 South Rd Ste 103, Poughkeepsie, NY 12601</p>
+                        </div>
+                        <div class="email">
+                           <i class="icofont-envelope bg-black text-white"></i>
+                           <h4>Email:</h4>
+                           <p>sam@hudsoncommercial.com</p>
+                        </div>
+                        <div class="phone">
+                           <i class="icofont-phone bg-black text-white "></i>
+                           <h4>Call:</h4>
+                           <p>+1 845 454-1444</p>
+                        </div>
+                     </div>
+                  </div>
+                  <!--End mc_embed_signup-->
+                  <div class="col-lg-8 mt-5 mt-lg-0">
+                     <form action="https://hudsoncommercial.us10.list-manage.com/subscribe/post?u=7838f82a2d7e3b8e6f1a064bf&amp;id=869efbc981" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="php-email-form" >
+                        <div class="form-row">
+                           <div class="col-md-6 form-group">
+                              <input type="text" name="name" class="form-control" value="" name="FNAME" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                              <div class="validate"></div>
+                           </div>
+                           <div class="col-md-6 form-group">
+                              <input type="email" class="form-control"  name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                              <div class="validate"></div>
+                           </div>
+                        </div>
+                        <div class="form-group">
+                           <input type="text" class="form-control" name="PHONE" class="" value="" id="mce-PHONE" placeholder="Phone" data-rule="minlen:4" data-msg="Please enter a valid phone number" />
+                           <div class="validate"></div>
+                        </div>
+                        <div class="form-group">
+                           <textarea class="form-control" value="" name="MMERGE5" class="" id="mce-MMERGE5" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                           <div class="validate"></div>
+                        </div>
+                        <div class="mb-3">
+                           <div class="loading">Loading</div>
+                           <div class="sent-message">Your message has been sent. Thank you!</div>
+                        </div>
+                        <div class="text-center"><button  class=" bg-black" id="send-btn" type="submit">Send Message</button></div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- End Contact Section -->
+      </main>
+      <!-- End #main -->
+      <!-- ======= Footer ======= -->
+      <footer id="footer">
+         <div class="footer-top  bg-dark text-white">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-3 col-md-6 footer-contact text-white ">
+                     <h3 class="text-white">Hudson Commercial </h3>
+                     <p class="text-white">
+                        2678 South Rd Ste 103,<br>
+                        Poughkeepsie, NY 12601<br>
+                        United States <br><br>
+                        <strong>Phone:</strong> +1 845 454-1444<br>
+                        <strong>Email:</strong> sam@hudsoncommercial.com<br>
+                     </p>
+                  </div>
+                  <div class="col-lg-2 col-md-6 footer-links text-white">
+                     <h4 class="text-white">Useful Links</h4>
+                     <ul>
+                        <li><i class="bx bx-chevron-right  text-white"></i> <a class=" text-white" href="#">Home</a></li>
+                        <li><i class="bx bx-chevron-right  text-white"></i> <a class=" text-white" href="#">About us</a></li>
+                        <li><i class="bx bx-chevron-right  text-white"></i> <a class=" text-white" href="#">Services</a></li>
+                        <li><i class="bx bx-chevron-right  text-white"></i> <a class=" text-white" href="#">Terms of service</a></li>
+                        <li><i class="bx bx-chevron-right  text-white"></i> <a class=" text-white" href="#">Privacy policy</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-lg-3 col-md-6 footer-links text-white">
+                     <h4 class="text-white">Our Services</h4>
+                     <ul>
+                        <li><i class="bx bx-chevron-right text-white"></i> <a class="text-white" href="#">Building Management</a></li>
+                        <li><i class="bx bx-chevron-right text-white"></i> <a class="text-white" href="#">Construction Management</a></li>
+                        <li><i class="bx bx-chevron-right text-white"></i> <a class="text-white" href="#">Real Estate Sales</a></li>
+                        <li><i class="bx bx-chevron-right text-white"></i> <a class="text-white" href="#">Real Estate Development</a></li>
+                        <li><i class="bx bx-chevron-right text-white"></i> <a class="text-white" href="#">Real Estate Consulting </a></li>
+                     </ul>
+                  </div>
+                  <div class="col-lg-3 col-md-6 footer-info text-white">
+                     <h3 class=" text-white">About US</h3>
+                     <p class=" text-white">At Hudson Commercial Real Estate, our goal is to provide you with the leading edge – empowering you with more choices, market knowledge, and superb execution in real estate.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container d-md-flex py-4">
+            <div class="mr-md-auto text-center text-md-left">
+               <div class="credits">
+                  <!-- All the links in the footer should remain intact. -->
+                  <!-- You can delete the links only if you purchased the pro version. -->
+                  <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                  <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/ -->
+                  Designed by Noah Finnerman using <a href="https://bootstrapmade.com/">BootstrapMade</a>
+               </div>
+            </div>
+            <div class="social-links text-center text-md-right pt-3 pt-md-0">
+               <a href="#" class="twitter  bg-black "><i class="bx bxl-twitter  bg-black "></i></a>
+               <a href="#" class="facebook  bg-black "><i class="bx bxl-facebook  bg-black "></i></a>
+               <a href="#" class="instagram  bg-black "><i class="bx bxl-instagram  bg-black "></i></a>
+               <a href="#" class="google-plus  bg-black "><i class="bx bxl-skype  bg-black "></i></a>
+               <a href="#" class="linkedin  bg-black   "><i class="bx bxl-linkedin  bg-black "></i></a>
+            </div>
+         </div>
+      </footer>
+      <!-- End Footer -->
+      <a href="#" class="back-to-top bg-black"><i class="ri-arrow-up-line bg-black  z"></i></a>
+      <div id="preloader"></div>
+      <!-- Vendor JS Files -->
+      <script src="assets/vendor/jquery/jquery.min.js"></script>
+      <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>s
+      <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+      <script src="assets/vendor/counterup/counterup.min.js"></script>
+      <script src="assets/vendor/venobox/venobox.min.js"></script>
+      <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+      <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+      <script src="assets/vendor/aos/aos.js"></script>
+      <!-- Template Main JS File -->
+      <script src="assets/js/main.js"></script>
+      <script type="text/javascript">
+         function init_carousel() {
+             H = +($(window).height() /* -height here  */); // or $('.carousel-inner') as you want ...
+             $('.carousel-inner img').css('height', H + 'px');
+         }
+         window.onload = init_carousel;
+         init_carousel();
+            
+      </script>
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='MMERGE5';ftypes[5]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+   </body>
+       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+   $(document).ready(function() {
+         $(window).scroll(function(){
+           $('.navbar-alt').toggleClass('scrolled', $(this).scrollTop() > 50);
+         });
+         
+         $('body').bootstrapMaterialDesign(); });  
+
+   </script>
+</html>
