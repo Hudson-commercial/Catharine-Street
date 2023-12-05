@@ -1,7 +1,6 @@
 
 # The Catharine-Street St For Sale / Catharine-Street
 > A Github page website used as a web brochure for a piece of real estate.
-#
 
 ## Links
 
