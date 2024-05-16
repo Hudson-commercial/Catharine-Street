@@ -11,7 +11,7 @@
 
 ## About
 
-This is a professionally designed website for marketing purposes of Leasing the warehouse/office space available in Gardiner, NY.
+This is a professionally designed website for marketing purposes of Leasing the warehouse/office space available in Poughkeepsie, NY.
 .
 
 ## Tools
